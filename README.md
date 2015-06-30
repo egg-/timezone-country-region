@@ -12,8 +12,6 @@ var tz = require('timezone-country-region');
 var timezone = tz.lookup('KR', '11');
 console.log(timezone);
 // Asia/Seoul
-
-
 ```
 
 
@@ -24,4 +22,4 @@ console.log(timezone);
 
 ## LICENSE
 
-log-notifier is licensed under the MIT license.
+timezone-country-region is licensed under the MIT license.
