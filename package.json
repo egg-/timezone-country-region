@@ -1,0 +1,26 @@
+{
+  "name": "timezone-country-region",
+  "version": "0.1.0",
+  "author": {
+    "name": "egg",
+    "email": "i@egg.pe.kr"
+  },
+  "description": "lookup timezone by country, region.",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/egg-/timezone-country-region.git"
+  },
+  "keywords": [
+    "timezone",
+    "country",
+    "region",
+    "geoip"
+  ],
+  "license": "MIT",
+  "main": "./index",
+  "devDependencies": {
+  },
+  "dependencies": {
+  }
+}
