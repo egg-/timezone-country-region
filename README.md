@@ -7,15 +7,20 @@ lookup timezone by country, region.
 ## Usage
 
 ```javascript
-var timezone = require('timezone-country-region');
+var tz = require('timezone-country-region');
 
-timezone.lookup('KR', 11);
+var timezone = tz.lookup('KR', '11');
+console.log(timezone);
+// Asia/Seoul
+
+
 ```
 
 
 ## Reference
 
 * Timezones: [http://www.maxmind.com/timezone.txt](http://www.maxmind.com/timezone.txt)
+* Region codes [http://www.maxmind.com/app/iso3166_2](http://www.maxmind.com/app/iso3166_2)
 
 ## LICENSE
 
